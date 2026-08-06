@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: var(--nav-height);
+  font-family: var(--font-base);
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+input,
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: #f6f6f8;
+  --color-bg-muted: #eeeef1;
+  --color-surface: #ffffff;
+  --color-text-primary: #0d0d0f;
+  --color-text-secondary: #63666e;
+  --color-text-muted: #8b8e96;
+  --color-accent: #7c6ef2;
+  --color-accent-soft: #ece8fd;
+  --color-border: #e4e4e9;
+  --color-dark: #0d0d0f;
+  --color-dark-hover: #262629;
+  --font-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --container-max: 1320px;
+  --container-padding: clamp(1.25rem, 4vw, 2.5rem);
+  --nav-height: 66px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-dark {
+  background: var(--color-dark);
+  color: var(--color-surface);
+  border-color: var(--color-dark);
+}
+
+.btn-dark:hover {
+  background: var(--color-dark-hover);
+  border-color: var(--color-dark-hover);
+}
+
+.btn-outline {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  border-color: var(--color-border);
+}
+
+.btn-outline:hover {
+  border-color: var(--color-text-muted);
+}
