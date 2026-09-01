@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer-brand">
           <span className="footer-logo">BLRVK</span>
           <p className="footer-tagline">
-            Intelligent automation systems for modern businesses.
+            Intelligent systems for modern businesses.
           </p>
         </div>
 

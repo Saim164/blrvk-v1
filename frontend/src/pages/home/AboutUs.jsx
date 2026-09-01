@@ -22,7 +22,7 @@ const AboutUs = () => {
           <div className="about__vision">
             <h3 className="about__vision-label">OUR APPROACH</h3>
             <p className="about__vision-text">
-              BLRVK creates intelligent automation systems that simplify
+              BLRVK creates intelligent systems that simplify
               operations, eliminate repetitive work, and help businesses move
               faster. Every workflow is designed around how your business
               actually operates—not around generic templates or unnecessary

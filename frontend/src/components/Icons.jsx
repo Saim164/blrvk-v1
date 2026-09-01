@@ -34,6 +34,101 @@ export function ArrowUpRightIcon(props) {
   );
 }
 
+export function WorkflowIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <rect width="8" height="8" x="3" y="3" rx="2" />
+      <rect width="8" height="8" x="13" y="13" rx="2" />
+      <path d="M7 11v2a2 2 0 0 0 2 2h4" />
+    </svg>
+  );
+}
+
+export function BotIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <rect width="16" height="12" x="4" y="8" rx="2" />
+      <path d="M12 4v4" />
+      <circle cx="12" cy="3" r="1" />
+      <path d="M9 13v2" />
+      <path d="M15 13v2" />
+    </svg>
+  );
+}
+
+export function PuzzleIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M19 5h-3.5a1.5 1.5 0 1 0-3 0H9v3.5a1.5 1.5 0 1 1 0 3V15h3.5a1.5 1.5 0 1 0 3 0H19v-3.5a1.5 1.5 0 1 1 0-3V5Z" />
+    </svg>
+  );
+}
+
+export function RocketIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M5 13c-1.5 1-2 5-2 5s4-.5 5-2c.6-.9.5-2.1-.3-2.9-.8-.8-2-1-2.7-.1Z" />
+      <path d="M9 11a13 13 0 0 1 8-8 13 13 0 0 1-8 8Z" />
+      <path d="M12.5 15.5 14 17c1 1 3 1 4-1s1-4 0-5" />
+      <path d="M9 11 7 9c-1-1-1-3 1-4s4-1 5 0" />
+    </svg>
+  );
+}
+
+export function GraduationCapIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M22 9 12 4 2 9l10 5 10-5Z" />
+      <path d="M6 11v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5" />
+    </svg>
+  );
+}
+
 export function MenuIcon(props) {
   return (
     <svg

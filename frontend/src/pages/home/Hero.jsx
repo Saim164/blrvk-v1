@@ -14,7 +14,7 @@ function Hero() {
         <div className="hero-content">
           <span className="hero-eyebrow">
             <span className="hero-eyebrow-dot" aria-hidden="true" />
-            AI Automation for Modern Businesses
+            AI for Modern Businesses
           </span>
 
           <h1 className="hero-heading">
@@ -25,7 +25,7 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-            We design and build AI automation systems that streamline
+            We design and build AI systems that streamline
             operations, eliminate bottlenecks, and unlock scalable growth.
           </p>
 
